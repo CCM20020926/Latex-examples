@@ -2,7 +2,7 @@
 
 **图排版：** 参见 [figures/](figures/)
 
-**表排版：**参见 [tables](tables/)
+**表排版：** 参见 [tables](tables/)
 
 **引用图表：**
 
