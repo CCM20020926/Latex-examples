@@ -1,0 +1,17 @@
+\begin{table}[t]
+	\centering
+	\caption{Attack Success Rate (ASR) of each red-team model against each victim model.}
+	\label{tab:asr_results}
+	\begin{tabular}{lcccc}
+		\toprule
+		\textbf{Red-team Model} & \textbf{Qwen2.5-VL-7B-Instruct} & \textbf{GPT-4o} & \textbf{GPT-5} & \textbf{Average ASR} \\
+		\midrule
+		Qwen2.5-7B-Instruct   & 40\% & 42\% & 3\% & 28.3\% \\
+		DeepSeek-V3           & 83\% & 63\% & 0\% & 48.7\% \\
+		Llama-3-70B-Instruct  & --   & --   & 0\% & 0.0\%  \\
+		GPT-4o                & 64\% & 60\% & 0\% & 41.3\% \\
+		GPT-4o-mini           & 41\% & 35\% & 0\% & 25.3\% \\
+		Gemini-2.0-Flash      & 91\% & 89\% & 1\% & 60.3\% \\
+		\bottomrule
+	\end{tabular}
+\end{table}

@@ -1,0 +1,30 @@
+\begin{table}[t]
+	\centering
+	\caption{Mapping relations between harmful content categories and OpenAI Moderation API labels.}
+	\label{tab:mapping_openai}
+	\begin{tabular}{p{3cm} p{3.5cm} p{4cm}}
+		\toprule
+		\textbf{Main Category} & \textbf{Sub Category} & \textbf{OpenAI Moderation API Label} \\
+		\midrule
+		\multirow{2}{*}{Security Threats} 
+		& Make weapons       & illicit/violent \\
+		& Make illegal drugs & illicit \\
+		\midrule
+		\multirow{2}{*}{Criminal} 
+		& Cyber criminal     & illicit \\
+		& Theft              & illicit \\
+		\midrule
+		\multirow{2}{*}{Harassment} 
+		& Insulting words    & harassment \\
+		& Racial bias        & harassment \\
+		\midrule
+		\multirow{2}{*}{Violence} 
+		& Violent instructions & illicit/violent \\
+		& Violent scene      & violence \\
+		\midrule
+		\multirow{2}{*}{Sexual} 
+		& Adults sexual      & sexual \\
+		& Minor sexual       & sexual/minor \\
+		\bottomrule
+	\end{tabular}
+\end{table}
