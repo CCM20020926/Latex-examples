@@ -14,9 +14,12 @@
 
 **作者单位显示示例：**
 
-author1$^{1}$, author2$^{1}$, author3$^{2}$ \\
-$^{1}$XXX,Beijing,China \\
-$^{2}$YYY,Beijing,China \\
+author1$^{1}$, author2$^{1}$, author3$^{2}$ 
+
+$^{1}$XXX,Beijing,China 
+
+$^{2}$YYY,Beijing,China 
+
 {author1,author2}@xxx.cn,{author3}@yyy.cn
 
 
