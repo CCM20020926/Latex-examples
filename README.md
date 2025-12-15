@@ -22,4 +22,19 @@ $^{2}$YYY,Beijing,China
 
 {author1,author2}@xxx.cn,{author3}@yyy.cn
 
+**常用公式字体：**
+
+\mathcal{G}  —— 花体
+
+\mathbb{E}  —— 黑版粗体
+
+\mathit{A}  —— 斜体
+
+\mathbf{B}  —— 黑体
+
+**效果:**
+
+<img width="9" height="69" alt="image" src="https://github.com/user-attachments/assets/d67273de-49cf-4bb3-b719-daa9f5b377b2" />
+
+
 
